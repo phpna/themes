@@ -1,0 +1,36 @@
+{
+    "name": "phpna/themes",
+    "description": "Laravel构建框架PHPNA的核心加载器",
+    "keywords": ["laravel","illuminate","phpna","laravel cms"],
+    "homepage": "http://phpna.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lichnow",
+            "email": "lichnow@phpna.com"
+        }
+    ],
+    "support": {
+        "email": "lichnow@phpna.com",
+        "wiki": "http://www.phpna.com/wiki",
+        "forum": "http://www.phpna.com/forum"
+    },
+    "require": {
+        "phpna/support": "dev-master",
+        "pingpong/themes": "~2.1"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "~4.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "Phpna\\Themes\\": ""
+      }
+    },
+    "extra": {
+      "branch-alias": {
+          "dev-master": "1.0.x-dev"
+      }
+    },
+    "minimum-stability": "stable"
+}
