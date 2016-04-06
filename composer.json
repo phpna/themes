@@ -17,8 +17,7 @@
     },
     "require": {
         "phpna/support": "dev-master",
-        "pingpong/themes": "~2.1",
-        "laravelcollective/html": "5.2.*"
+        "pingpong/themes": "~2.1"
     },
     "require-dev": {
       "phpunit/phpunit": "~4.1"
